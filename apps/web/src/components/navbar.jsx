@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom"
 import { useState, useEffect } from "react"
 import { useAuth } from "../auth/authProvider"
 import useUserProfile from "../../hooks/user/Profile"
-import "./../../styles/componentstyles/header.css"
+import "../../styles/componentstyles/header.css"
 import UserProfile from "../user/userProfile"; // adjust path if needed
 
 const Header = () => {
