@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: bookify-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bookifydb
+      MYSQL_USER: bookify
+      MYSQL_PASSWORD: bookify123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+
+  api:
+    build: ./backend/api
+    container_name: bookify-api
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: mysql
+      DB_USER: root
+      DB_PASSWORD: root
+      DB_NAME: bookifydb
+      DB_PORT: 3306
+    depends_on:
+      - mysql
+
+  web:
+    build: ./apps/webapp
+    container_name: bookify-web
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+
+volumes:
+  mysql-data:
