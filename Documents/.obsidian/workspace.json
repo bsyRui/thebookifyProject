@@ -23,8 +23,23 @@
               "icon": "lucide-layout-dashboard",
               "title": "Departments"
             }
+          },
+          {
+            "id": "fab6bf624fafc9f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Departments/Marketing/Youtube/Video-001-script-001.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Video-001-script-001"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,8 +187,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "13b98abcc3c7daf2",
+  "active": "fab6bf624fafc9f9",
   "lastOpenFiles": [
+    "Departments.canvas",
+    "Departments/Marketing/Youtube/Video-001-script-001.md",
+    "Departments/Marketing/Youtube",
     "Departments/customerSupport/intro.md",
     "Departments/customerSupport",
     "Departments/Sales/Untitled.md",
@@ -184,11 +202,9 @@
     "Departments/Marketing",
     "Departments/Finances/Untitled.md",
     "Departments/Finances",
-    "Departments.canvas",
     "Untitled.base",
     "Untitled 1.base",
     "Docker.md",
-    "Untitled",
     "assets",
     "Departments",
     "C-resumo.md",
