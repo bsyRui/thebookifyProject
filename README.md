@@ -10,3 +10,5 @@
 docker exec -i bookify-mysql mysql -uroot -proot123 < /Bookify-newlevel/database/all_databases_backup_compatible.sql
 
 3. IF Needed Install npm.
+
+docker exec -it bookify-mysql mysql -uroot -proot

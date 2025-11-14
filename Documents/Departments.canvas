@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"007ceb851b6dd863","x":-220,"y":-120,"width":250,"height":60,"type":"text","text":"Departments"},
+		{"id":"e42cf190a697db3a","x":-344,"y":43,"width":250,"height":60,"color":"3","type":"text","text":"Finances"},
+		{"id":"00ee9d7fc4f4ff08","x":-40,"y":43,"width":250,"height":60,"color":"6","type":"text","text":"Marketing"},
+		{"id":"f7aa7e8a5281e466","x":-200,"y":140,"width":250,"height":60,"color":"#0beefe","type":"text","text":"Customer support"},
+		{"id":"3023c4351347aa1d","x":160,"y":-60,"width":250,"height":60,"color":"4","type":"text","text":"Sales"},
+		{"id":"5bcba8ec17488f4b","x":-594,"y":-60,"width":250,"height":60,"color":"#0062ff","type":"text","text":"Operations"}
+	],
+	"edges":[
+		{"id":"167859904a56a944","fromNode":"007ceb851b6dd863","fromSide":"bottom","toNode":"e42cf190a697db3a","toSide":"top"},
+		{"id":"73abfdd3af7ed0d1","fromNode":"007ceb851b6dd863","fromSide":"bottom","toNode":"00ee9d7fc4f4ff08","toSide":"top"},
+		{"id":"0e7940f75be9de79","fromNode":"007ceb851b6dd863","fromSide":"bottom","toNode":"f7aa7e8a5281e466","toSide":"top"},
+		{"id":"64ddcf6b540ddb5d","fromNode":"007ceb851b6dd863","fromSide":"right","toNode":"3023c4351347aa1d","toSide":"left"},
+		{"id":"e49a008991dd30f4","fromNode":"007ceb851b6dd863","fromSide":"left","toNode":"5bcba8ec17488f4b","toSide":"right"}
+	]
+}

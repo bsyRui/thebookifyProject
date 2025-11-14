@@ -11,14 +11,17 @@
             "id": "873c18ce2b4d3e64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "C-resumo.md",
-                "mode": "source",
-                "source": false
+                "file": "Departments.canvas",
+                "viewState": {
+                  "x": -95,
+                  "y": -61.10688572769493,
+                  "zoom": -0.8
+                }
               },
-              "icon": "lucide-file",
-              "title": "C-resumo"
+              "icon": "lucide-layout-dashboard",
+              "title": "Departments"
             }
           }
         ]
@@ -169,11 +172,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "873c18ce2b4d3e64",
+  "active": "13b98abcc3c7daf2",
   "lastOpenFiles": [
+    "Departments/customerSupport/intro.md",
+    "Departments/customerSupport",
+    "Departments/Sales/Untitled.md",
+    "Departments/Sales",
+    "Departments/Operations/Untitled 1.md",
+    "Departments/Operations",
+    "Departments/Marketing/Untitled.md",
+    "Departments/Marketing",
+    "Departments/Finances/Untitled.md",
+    "Departments/Finances",
+    "Departments.canvas",
+    "Untitled.base",
+    "Untitled 1.base",
+    "Docker.md",
+    "Untitled",
+    "assets",
+    "Departments",
     "C-resumo.md",
     "mad.md",
-    "Docker.md",
     "Pasted image 20251031131901.png",
     "IAPSI-RESUMO.md",
     "uy.md",
